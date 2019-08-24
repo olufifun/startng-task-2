@@ -5,27 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Olufifun</title>
-    <style>html {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 2% 5% ;
-            display: inline-flexbox;
-    }
-    h1 {
-        font-size: 3em;
-        margin: 0 auto;
-    }
-
-    .summary {
-        margin: 0 auto;
-    }
-    
-    #left-side {
-        margin-right: 50%;
-    }</style>
+    <style>
+            html {
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin: 2% 5% ;
+                    display: inline-flexbox;
+            }
+            h1 {
+                font-size: 3em;
+                margin: 0 auto;
+            }
+            .summary {
+                margin: 0 auto;
+            }
+            .split {
+                height: 100%;
+                width: 50%;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                overflow-x: hidden;
+                padding-top: 20px;
+            }
+            .left {
+                /* margin-right: 40%; */
+                left: 0;
+            }
+            .right {
+                right: 0;
+            }
+    </style>
 </head>
 
 <body>
-    <div id="left-side">
+    <div class=" split left">
         <header>
             <!-- <img src="https://res.cloudinary.com/olufifun/image/upload/v1566588675/FIF_Profile_Pictures_IMG_8345_tvxrc9.jpg" alt="Olufifun Adeleke">  -->
             <h1>Olufifun A. ADELEKE, PMP, SFC</h1>
@@ -61,39 +74,39 @@
         </section>
     </div>
 
-    <div id="right-side">
+    <div class="split right">
 
-    <section class="address">
-        <p>Block 71 Flat 5, LSDPC Housing
-            Estate, Ifako-Ijaiye, Lagos.
-        </p>
-        <p><strong>+234-816-1252-562</strong></p>
-        <p><strong>olufifun@gmail.com</strong></p>
-    </section>
-
-    <section class="skills">
-        <h5 class="heading">SKILLS</h5>
-        <p class="subtitle"><strong>Project Management</strong></p>
-        <p class="">Risk Management, Strategic Planning, Quality Management,
-            Schedule Management, Communications Management, Benefits Analysis,
-            Performance Management, Business Planning.</p>
-        <p class="subtitle"><strong>Leadership</strong></p>
-        <p class="">Negotiation, Research, Teamwork,
-            Public Speaking, Teaching,Training, Conflict Resolution
+        <section class="address">
+            <p>Block 71 Flat 5, LSDPC Housing
+                Estate, Ifako-Ijaiye, Lagos.
             </p>
-    </section>
+            <p><strong>+234-816-1252-562</strong></p>
+            <p><strong>olufifun@gmail.com</strong></p>
+        </section>
 
-    <section class="certifications">
-            <h5 class="heading">CERTIFICATIONS</h5>
-            <p><strong>Project Management Professional (PMP) 2270646</strong></p>
-            <p><strong>Proficiency Certificate in Management</strong> - NIM</p>
-            <p><strong>Graduate Certificate</strong> - NIM</p>
-            <p><strong>Scrum Fundamentals Certified (SFC) 666845</strong></p>
-            <p><strong>Six Sigma Yellow Belt Professional 664725</strong></p>
-            <p><strong>Certificate of National Service</strong> - NYSC</p>
-            <p><strong>Certificate of Attendance</strong> - Financial Education for Volunteer NYSC Corps Members</p>
-    
-    </section>
+        <section class="skills">
+            <h5 class="heading">SKILLS</h5>
+            <p class="subtitle"><strong>Project Management</strong></p>
+            <p class="">Risk Management, Strategic Planning, Quality Management,
+                Schedule Management, Communications Management, Benefits Analysis,
+                Performance Management, Business Planning.</p>
+            <p class="subtitle"><strong>Leadership</strong></p>
+            <p class="">Negotiation, Research, Teamwork,
+                Public Speaking, Teaching,Training, Conflict Resolution
+                </p>
+        </section>
+
+        <section class="certifications">
+                <h5 class="heading">CERTIFICATIONS</h5>
+                <p><strong>Project Management Professional (PMP) 2270646</strong></p>
+                <p><strong>Proficiency Certificate in Management</strong> - NIM</p>
+                <p><strong>Graduate Certificate</strong> - NIM</p>
+                <p><strong>Scrum Fundamentals Certified (SFC) 666845</strong></p>
+                <p><strong>Six Sigma Yellow Belt Professional 664725</strong></p>
+                <p><strong>Certificate of National Service</strong> - NYSC</p>
+                <p><strong>Certificate of Attendance</strong> - Financial Education for Volunteer NYSC Corps Members</p>
+        
+        </section>
     </div>
 </body>
 </html>
